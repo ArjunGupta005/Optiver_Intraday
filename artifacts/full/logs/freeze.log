@@ -1,0 +1,1 @@
+2026-10-14 21:06:06,607 INFO optiver_tc.final: frozen: families=['auction', 'temporal', 'xsec'] iters=410 w_lgb=0.9 pp=(0.5, None) rule={'cap': 0.02, 'quantile': 0.2, 'gross': 1.0, 'min_names': 10}

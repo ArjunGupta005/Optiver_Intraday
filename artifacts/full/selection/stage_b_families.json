@@ -1,0 +1,53 @@
+{
+  "rule": "drop family iff mean MAE without it < with it AND better in >=2/3 folds",
+  "mae_all": 6.347245340427993,
+  "table": [
+    {
+      "family": "book",
+      "mae_without": 6.345576962327421,
+      "delta_vs_all": -0.0016683781005726317,
+      "folds_better_without": 3,
+      "dropped": true
+    },
+    {
+      "family": "auction",
+      "mae_without": 6.351679897205055,
+      "delta_vs_all": 0.004434556777061616,
+      "folds_better_without": 0,
+      "dropped": false
+    },
+    {
+      "family": "interact",
+      "mae_without": 6.344959537003983,
+      "delta_vs_all": -0.002285803424010524,
+      "folds_better_without": 2,
+      "dropped": true
+    },
+    {
+      "family": "temporal",
+      "mae_without": 6.352985520481066,
+      "delta_vs_all": 0.005740180053072308,
+      "folds_better_without": 0,
+      "dropped": false
+    },
+    {
+      "family": "xsec",
+      "mae_without": 6.35109326157603,
+      "delta_vs_all": 0.0038479211480364484,
+      "folds_better_without": 0,
+      "dropped": false
+    },
+    {
+      "family": "stock",
+      "mae_without": 6.345671931765517,
+      "delta_vs_all": -0.001573408662476794,
+      "folds_better_without": 3,
+      "dropped": true
+    }
+  ],
+  "selected_families": [
+    "auction",
+    "temporal",
+    "xsec"
+  ]
+}

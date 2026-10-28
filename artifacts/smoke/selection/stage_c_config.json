@@ -1,0 +1,43 @@
+{
+  "rule": "lowest mean dev MAE",
+  "results": [
+    {
+      "config": "lgb_base",
+      "mean_mae": 4.986799785839197,
+      "by_fold": {
+        "fold1": 5.426973563236962,
+        "fold2": 4.90994954153237,
+        "fold3": 4.623476252748257
+      }
+    },
+    {
+      "config": "lgb_small",
+      "mean_mae": 4.993851013953145,
+      "by_fold": {
+        "fold1": 5.431633839608168,
+        "fold2": 4.921098775321023,
+        "fold3": 4.6288204269302415
+      }
+    },
+    {
+      "config": "lgb_large",
+      "mean_mae": 4.986950996158753,
+      "by_fold": {
+        "fold1": 5.4211712811254875,
+        "fold2": 4.9115681384612175,
+        "fold3": 4.628113568889554
+      }
+    }
+  ],
+  "selected": {
+    "name": "lgb_base",
+    "learning_rate": 0.05,
+    "num_leaves": 127,
+    "min_data_in_leaf": 500,
+    "feature_fraction": 0.7,
+    "bagging_fraction": 0.7,
+    "bagging_freq": 1,
+    "lambda_l2": 1.0,
+    "max_bin": 255
+  }
+}

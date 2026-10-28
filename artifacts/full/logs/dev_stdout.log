@@ -1,0 +1,169 @@
+2026-10-14 19:03:29,663 INFO optiver_tc.experiments: fold1 ('book', 'auction', 'interact', 'temporal', 'xsec', 'stock'): loaded train (3258035, 80) val (439945, 80) in 9.6s
+2026-10-14 19:03:30,954 INFO optiver_tc.experiments: zero fold1 MAE=6.51269 it=None fit=1s
+2026-10-14 19:03:32,433 INFO optiver_tc.experiments: median fold1 MAE=6.51223 it=None fit=1s
+2026-10-14 19:03:43,389 INFO optiver_tc.experiments: fold1 ('book', 'auction', 'interact', 'temporal', 'xsec', 'stock'): loaded train (3258035, 79) val (439945, 79) in 10.7s
+2026-10-14 19:04:12,361 INFO optiver_tc.experiments: ridge_a1 fold1 MAE=6.42383 it=None fit=27s
+2026-10-14 19:04:40,319 INFO optiver_tc.experiments: ridge_a100 fold1 MAE=6.42364 it=None fit=26s
+2026-10-14 19:05:09,157 INFO optiver_tc.experiments: ridge_a10000 fold1 MAE=6.42165 it=None fit=27s
+2026-10-14 19:05:22,401 INFO optiver_tc.experiments: fold2 ('book', 'auction', 'interact', 'temporal', 'xsec', 'stock'): loaded train (3697980, 80) val (440000, 80) in 12.3s
+2026-10-14 19:05:23,619 INFO optiver_tc.experiments: zero fold2 MAE=6.43115 it=None fit=0s
+2026-10-14 19:05:25,087 INFO optiver_tc.experiments: median fold2 MAE=6.43056 it=None fit=1s
+2026-10-14 19:05:37,147 INFO optiver_tc.experiments: fold2 ('book', 'auction', 'interact', 'temporal', 'xsec', 'stock'): loaded train (3697980, 79) val (440000, 79) in 11.8s
+2026-10-14 19:06:08,162 INFO optiver_tc.experiments: ridge_a1 fold2 MAE=6.35289 it=None fit=29s
+2026-10-14 19:06:36,494 INFO optiver_tc.experiments: ridge_a100 fold2 MAE=6.35246 it=None fit=27s
+2026-10-14 19:07:03,237 INFO optiver_tc.experiments: ridge_a10000 fold2 MAE=6.35128 it=None fit=25s
+2026-10-14 19:07:17,771 INFO optiver_tc.experiments: fold3 ('book', 'auction', 'interact', 'temporal', 'xsec', 'stock'): loaded train (4137980, 80) val (440000, 80) in 13.4s
+2026-10-14 19:07:19,602 INFO optiver_tc.experiments: zero fold3 MAE=6.47106 it=None fit=1s
+2026-10-14 19:07:21,926 INFO optiver_tc.experiments: median fold3 MAE=6.47073 it=None fit=1s
+2026-10-14 19:07:46,599 INFO optiver_tc.experiments: fold3 ('book', 'auction', 'interact', 'temporal', 'xsec', 'stock'): loaded train (4137980, 79) val (440000, 79) in 24.3s
+2026-10-14 19:08:32,641 INFO optiver_tc.experiments: ridge_a1 fold3 MAE=6.37439 it=None fit=42s
+2026-10-14 19:09:17,451 INFO optiver_tc.experiments: ridge_a100 fold3 MAE=6.37444 it=None fit=41s
+2026-10-14 19:10:16,365 INFO optiver_tc.experiments: ridge_a10000 fold3 MAE=6.37492 it=None fit=54s
+2026-10-14 19:10:35,627 INFO optiver_tc.experiments: fold1 ('book', 'auction', 'interact', 'temporal', 'xsec', 'stock'): loaded train (1624315, 80) val (439945, 80) in 16.3s
+[100]	val's l1: 6.3974
+2026-10-14 19:12:40,127 INFO optiver_tc.experiments: abl_all fold1 MAE=6.39456 it=63 fit=121s
+2026-10-14 19:12:51,896 INFO optiver_tc.experiments: fold1 ('auction', 'interact', 'temporal', 'xsec', 'stock'): loaded train (1624315, 73) val (439945, 73) in 11.6s
+[100]	val's l1: 6.39649
+2026-10-14 19:14:42,103 INFO optiver_tc.experiments: abl_no_book fold1 MAE=6.39337 it=66 fit=105s
+2026-10-14 19:14:51,969 INFO optiver_tc.experiments: fold1 ('book', 'interact', 'temporal', 'xsec', 'stock'): loaded train (1624315, 63) val (439945, 63) in 9.6s
+[100]	val's l1: 6.40185
+2026-10-14 19:16:46,047 INFO optiver_tc.experiments: abl_no_auction fold1 MAE=6.39999 it=75 fit=108s
+2026-10-14 19:17:04,713 INFO optiver_tc.experiments: fold1 ('book', 'auction', 'temporal', 'xsec', 'stock'): loaded train (1624315, 75) val (439945, 75) in 18.4s
+[100]	val's l1: 6.39632
+2026-10-14 19:18:55,976 INFO optiver_tc.experiments: abl_no_interact fold1 MAE=6.39482 it=57 fit=106s
+2026-10-14 19:19:05,159 INFO optiver_tc.experiments: fold1 ('book', 'auction', 'interact', 'xsec', 'stock'): loaded train (1624315, 59) val (439945, 59) in 8.9s
+[100]	val's l1: 6.40239
+2026-10-14 19:21:01,524 INFO optiver_tc.experiments: abl_no_temporal fold1 MAE=6.39956 it=90 fit=107s
+2026-10-14 19:21:11,791 INFO optiver_tc.experiments: fold1 ('book', 'auction', 'interact', 'temporal', 'stock'): loaded train (1624315, 59) val (439945, 59) in 9.8s
+[100]	val's l1: 6.40082
+2026-10-14 19:23:25,972 INFO optiver_tc.experiments: abl_no_xsec fold1 MAE=6.39963 it=90 fit=128s
+2026-10-14 19:23:35,963 INFO optiver_tc.experiments: fold1 ('book', 'auction', 'interact', 'temporal', 'xsec'): loaded train (1624315, 73) val (439945, 73) in 9.7s
+[100]	val's l1: 6.39795
+2026-10-14 19:25:46,662 INFO optiver_tc.experiments: abl_no_stock fold1 MAE=6.39438 it=55 fit=125s
+2026-10-14 19:26:01,340 INFO optiver_tc.experiments: fold2 ('book', 'auction', 'interact', 'temporal', 'xsec', 'stock'): loaded train (1845250, 80) val (440000, 80) in 14.0s
+[100]	val's l1: 6.30926
+[200]	val's l1: 6.30819
+2026-10-14 19:30:56,760 INFO optiver_tc.experiments: abl_all fold2 MAE=6.30780 it=122 fit=283s
+2026-10-14 19:31:15,886 INFO optiver_tc.experiments: fold2 ('auction', 'interact', 'temporal', 'xsec', 'stock'): loaded train (1845250, 73) val (440000, 73) in 18.6s
+[100]	val's l1: 6.30754
+[200]	val's l1: 6.30866
+2026-10-14 19:35:35,933 INFO optiver_tc.experiments: abl_no_book fold2 MAE=6.30627 it=126 fit=250s
+2026-10-14 19:35:49,639 INFO optiver_tc.experiments: fold2 ('book', 'interact', 'temporal', 'xsec', 'stock'): loaded train (1845250, 63) val (440000, 63) in 13.3s
+[100]	val's l1: 6.31312
+[200]	val's l1: 6.31319
+2026-10-14 19:38:50,388 INFO optiver_tc.experiments: abl_no_auction fold2 MAE=6.31237 it=170 fit=173s
+2026-10-14 19:39:03,504 INFO optiver_tc.experiments: fold2 ('book', 'auction', 'temporal', 'xsec', 'stock'): loaded train (1845250, 75) val (440000, 75) in 12.9s
+[100]	val's l1: 6.30587
+[200]	val's l1: 6.30556
+2026-10-14 19:42:29,007 INFO optiver_tc.experiments: abl_no_interact fold2 MAE=6.30335 it=130 fit=197s
+2026-10-14 19:42:40,598 INFO optiver_tc.experiments: fold2 ('book', 'auction', 'interact', 'xsec', 'stock'): loaded train (1845250, 59) val (440000, 59) in 11.3s
+[100]	val's l1: 6.31521
+[200]	val's l1: 6.31825
+2026-10-14 19:45:22,919 INFO optiver_tc.experiments: abl_no_temporal fold2 MAE=6.31422 it=117 fit=150s
+2026-10-14 19:45:36,624 INFO optiver_tc.experiments: fold2 ('book', 'auction', 'interact', 'temporal', 'stock'): loaded train (1845250, 59) val (440000, 59) in 13.4s
+[100]	val's l1: 6.31255
+2026-10-14 19:48:12,771 INFO optiver_tc.experiments: abl_no_xsec fold2 MAE=6.31205 it=90 fit=150s
+2026-10-14 19:48:26,199 INFO optiver_tc.experiments: fold2 ('book', 'auction', 'interact', 'temporal', 'xsec'): loaded train (1845250, 73) val (440000, 73) in 13.2s
+[100]	val's l1: 6.30497
+[200]	val's l1: 6.30702
+2026-10-14 19:51:14,257 INFO optiver_tc.experiments: abl_no_stock fold2 MAE=6.30382 it=132 fit=163s
+2026-10-14 19:51:26,323 INFO optiver_tc.experiments: fold3 ('book', 'auction', 'interact', 'temporal', 'xsec', 'stock'): loaded train (2064260, 80) val (440000, 80) in 11.6s
+[100]	val's l1: 6.34141
+[200]	val's l1: 6.34122
+2026-10-14 19:54:41,013 INFO optiver_tc.experiments: abl_all fold3 MAE=6.33938 it=128 fit=185s
+2026-10-14 19:54:55,264 INFO optiver_tc.experiments: fold3 ('auction', 'interact', 'temporal', 'xsec', 'stock'): loaded train (2064260, 73) val (440000, 73) in 13.8s
+[100]	val's l1: 6.33844
+[200]	val's l1: 6.33968
+2026-10-14 19:57:21,567 INFO optiver_tc.experiments: abl_no_book fold3 MAE=6.33709 it=127 fit=140s
+2026-10-14 19:57:31,361 INFO optiver_tc.experiments: fold3 ('book', 'interact', 'temporal', 'xsec', 'stock'): loaded train (2064260, 63) val (440000, 63) in 9.5s
+[100]	val's l1: 6.34346
+[200]	val's l1: 6.345
+2026-10-14 19:59:40,167 INFO optiver_tc.experiments: abl_no_auction fold3 MAE=6.34268 it=136 fit=123s
+2026-10-14 19:59:51,227 INFO optiver_tc.experiments: fold3 ('book', 'auction', 'temporal', 'xsec', 'stock'): loaded train (2064260, 75) val (440000, 75) in 10.8s
+[100]	val's l1: 6.33783
+[200]	val's l1: 6.33872
+2026-10-14 20:02:42,889 INFO optiver_tc.experiments: abl_no_interact fold3 MAE=6.33670 it=112 fit=166s
+2026-10-14 20:02:58,675 INFO optiver_tc.experiments: fold3 ('book', 'auction', 'interact', 'xsec', 'stock'): loaded train (2064260, 59) val (440000, 59) in 15.5s
+[100]	val's l1: 6.34597
+2026-10-14 20:05:23,073 INFO optiver_tc.experiments: abl_no_temporal fold3 MAE=6.34518 it=86 fit=139s
+2026-10-14 20:05:36,011 INFO optiver_tc.experiments: fold3 ('book', 'auction', 'interact', 'temporal', 'stock'): loaded train (2064260, 59) val (440000, 59) in 12.7s
+[100]	val's l1: 6.34207
+[200]	val's l1: 6.34605
+2026-10-14 20:08:07,579 INFO optiver_tc.experiments: abl_no_xsec fold3 MAE=6.34160 it=109 fit=137s
+2026-10-14 20:08:33,403 INFO optiver_tc.experiments: fold3 ('book', 'auction', 'interact', 'temporal', 'xsec'): loaded train (2064260, 73) val (440000, 73) in 25.3s
+[100]	val's l1: 6.33932
+[200]	val's l1: 6.34242
+2026-10-14 20:11:37,756 INFO optiver_tc.experiments: abl_no_stock fold3 MAE=6.33882 it=117 fit=178s
+2026-10-14 20:11:49,298 INFO optiver_tc.experiments: fold1 ('auction', 'temporal', 'xsec'): loaded train (1624315, 61) val (439945, 61) in 10.7s
+[100]	val's l1: 6.39249
+[200]	val's l1: 6.39094
+2026-10-14 20:14:27,510 INFO optiver_tc.experiments: cfg_lgb_base fold1 MAE=6.39060 it=176 fit=147s
+[100]	val's l1: 6.4017
+[200]	val's l1: 6.39557
+[300]	val's l1: 6.39539
+[400]	val's l1: 6.39418
+[500]	val's l1: 6.39528
+2026-10-14 20:17:49,619 INFO optiver_tc.experiments: cfg_lgb_small fold1 MAE=6.39386 it=445 fit=192s
+[100]	val's l1: 6.38987
+[200]	val's l1: 6.39064
+2026-10-14 20:19:35,249 INFO optiver_tc.experiments: cfg_lgb_large fold1 MAE=6.38841 it=127 fit=99s
+2026-10-14 20:19:43,938 INFO optiver_tc.experiments: fold2 ('auction', 'temporal', 'xsec'): loaded train (1845250, 61) val (440000, 61) in 8.2s
+[100]	val's l1: 6.30964
+[200]	val's l1: 6.30157
+[300]	val's l1: 6.30037
+[400]	val's l1: 6.29974
+2026-10-14 20:23:24,315 INFO optiver_tc.experiments: cfg_lgb_base fold2 MAE=6.29908 it=361 fit=205s
+[100]	val's l1: 6.3237
+[200]	val's l1: 6.31346
+[300]	val's l1: 6.30923
+[400]	val's l1: 6.30618
+[500]	val's l1: 6.30508
+[600]	val's l1: 6.30353
+[700]	val's l1: 6.30255
+[800]	val's l1: 6.30247
+2026-10-14 20:28:04,041 INFO optiver_tc.experiments: cfg_lgb_small fold2 MAE=6.30215 it=764 fit=262s
+[100]	val's l1: 6.30437
+[200]	val's l1: 6.29798
+[300]	val's l1: 6.29696
+[400]	val's l1: 6.29799
+2026-10-14 20:31:14,794 INFO optiver_tc.experiments: cfg_lgb_large fold2 MAE=6.29662 it=325 fit=175s
+2026-10-14 20:31:24,293 INFO optiver_tc.experiments: fold3 ('auction', 'temporal', 'xsec'): loaded train (2064260, 61) val (440000, 61) in 9.0s
+[100]	val's l1: 6.3413
+[200]	val's l1: 6.33469
+[300]	val's l1: 6.33381
+[400]	val's l1: 6.33308
+2026-10-14 20:34:50,926 INFO optiver_tc.experiments: cfg_lgb_base fold3 MAE=6.33266 it=360 fit=192s
+[100]	val's l1: 6.35299
+[200]	val's l1: 6.34394
+[300]	val's l1: 6.34043
+[400]	val's l1: 6.33821
+[500]	val's l1: 6.33803
+[600]	val's l1: 6.33742
+[700]	val's l1: 6.33639
+[800]	val's l1: 6.33609
+[900]	val's l1: 6.33605
+2026-10-14 20:39:47,692 INFO optiver_tc.experiments: cfg_lgb_small fold3 MAE=6.33582 it=865 fit=277s
+[100]	val's l1: 6.33531
+[200]	val's l1: 6.32998
+[300]	val's l1: 6.33039
+2026-10-14 20:42:36,089 INFO optiver_tc.experiments: cfg_lgb_large fold3 MAE=6.32957 it=224 fit=158s
+2026-10-14 20:42:44,709 INFO optiver_tc.experiments: fold1 ('auction', 'temporal', 'xsec'): loaded train (3258035, 61) val (439945, 61) in 8.2s
+[100]	val's l1: 6.37761
+[200]	val's l1: 6.37129
+[300]	val's l1: 6.37062
+2026-10-14 20:47:23,506 INFO optiver_tc.experiments: lgb_final_dev fold1 MAE=6.37043 it=291 fit=265s
+2026-10-14 20:47:32,525 INFO optiver_tc.experiments: fold2 ('auction', 'temporal', 'xsec'): loaded train (3697980, 61) val (440000, 61) in 8.5s
+[100]	val's l1: 6.29598
+[200]	val's l1: 6.2844
+[300]	val's l1: 6.28118
+[400]	val's l1: 6.28037
+[500]	val's l1: 6.28033
+2026-10-14 20:57:50,562 INFO optiver_tc.experiments: lgb_final_dev fold2 MAE=6.27980 it=467 fit=595s
+2026-10-14 20:57:59,789 INFO optiver_tc.experiments: fold3 ('auction', 'temporal', 'xsec'): loaded train (4137980, 61) val (440000, 61) in 8.4s
+[100]	val's l1: 6.32788
+[200]	val's l1: 6.31763
+[300]	val's l1: 6.31556
+[400]	val's l1: 6.31383
+[500]	val's l1: 6.31391
+2026-10-14 21:05:34,152 INFO optiver_tc.experiments: lgb_final_dev fold3 MAE=6.31363 it=473 fit=432s
+2026-10-14 21:05:34,737 INFO root: dev selection: {'families': ['auction', 'temporal', 'xsec'], 'params': {'name': 'lgb_large', 'learning_rate': 0.05, 'num_leaves': 255, 'min_data_in_leaf': 300, 'feature_fraction': 0.6, 'bagging_fraction': 0.7, 'bagging_freq': 1, 'lambda_l2': 5.0, 'max_bin': 255}}

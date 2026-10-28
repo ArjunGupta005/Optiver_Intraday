@@ -1,0 +1,100 @@
+# SMOKE configuration: small chronological subset (dates 0-59) to exercise every stage quickly.
+# Its numbers are NOT research results.
+# All split boundaries are fixed here BEFORE any modelling.
+# Boundaries were set after the data audit confirmed date_id 0..480 (481 complete trading days).
+
+name = "smoke"
+seed = 42
+artifacts_dir = "artifacts/smoke"
+reports_dir = "reports"
+
+[data]
+zip_path = "C:/Users/arjun/Downloads/optiver-trading-at-the-close.zip"
+raw_dir = "data/raw"
+processed_dir = "data/processed"
+# optional: restrict to dates <= max_date_id (None = all). Used by smoke mode.
+max_date_id = 59
+stock_subset = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59]  # smoke: 60 stocks
+
+[resources]
+n_threads = 2              # physical cores on the dev machine; override with OPTIVER_THREADS
+float_dtype = "float32"
+# Fraction of training rows (sampled by whole date_id, deterministic) used in *ablation* runs only.
+ablation_date_fraction = 0.5
+
+[splits]
+# Final untouched holdout: last 60 dates.
+holdout_start = 50
+holdout_end = 59
+# Expanding-window development folds: train on [train_start, val_start-1], validate on [val_start, val_end].
+train_start = 0
+embargo_days = 0           # labels are intraday (t+60s within the same auction); see reports/validation_design.md
+folds = [
+    { name = "fold1", val_start = 32, val_end = 37 },
+    { name = "fold2", val_start = 38, val_end = 43 },
+    { name = "fold3", val_start = 44, val_end = 49 },
+]
+
+[features]
+lags_seconds = [10, 30, 60]
+roll_window_seconds = 60
+families = ["book", "auction", "interact", "temporal", "xsec", "stock"]
+
+[lgbm]
+objective = "l1"
+n_estimators = 150
+early_stopping_rounds = 20
+log_every = 50
+# Candidate configurations evaluated on development folds (bounded budget).
+[[lgbm.candidates]]
+name = "lgb_base"
+learning_rate = 0.05
+num_leaves = 127
+min_data_in_leaf = 500
+feature_fraction = 0.7
+bagging_fraction = 0.7
+bagging_freq = 1
+lambda_l2 = 1.0
+max_bin = 255
+
+[[lgbm.candidates]]
+name = "lgb_small"
+learning_rate = 0.05
+num_leaves = 31
+min_data_in_leaf = 1000
+feature_fraction = 0.7
+bagging_fraction = 0.7
+bagging_freq = 1
+lambda_l2 = 1.0
+max_bin = 255
+
+[[lgbm.candidates]]
+name = "lgb_large"
+learning_rate = 0.05
+num_leaves = 255
+min_data_in_leaf = 300
+feature_fraction = 0.6
+bagging_fraction = 0.7
+bagging_freq = 1
+lambda_l2 = 5.0
+max_bin = 255
+
+[ridge]
+alphas = [100.0]
+clip_quantile = 0.001
+
+[backtest]
+decision_seconds = [0, 60, 120, 180, 240, 300, 360, 420, 480, 540]
+gross_exposure = 1.0
+min_names_per_side = 10
+cost_bps_per_side = [0.0, 0.5, 1.0, 2.0]
+bootstrap_reps = 200
+bootstrap_block_days = 5
+# Rule grid chosen on development OOF predictions only, then frozen.
+weight_caps = [0.02, 0.05]
+selection_quantiles = [1.0, 0.4, 0.2]   # 1.0 = all names; 0.2 = top/bottom 20% by demeaned signal
+selection_cost_bps = 0.5                # per-side cost at which the dev rule is selected
+
+[streaming]
+history_seconds = 60       # bounded history kept per stock (>= max lag and rolling window)
+strict_order = false

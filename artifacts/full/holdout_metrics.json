@@ -1,0 +1,75 @@
+{
+  "holdout_dates": [
+    421,
+    480
+  ],
+  "train_dates": [
+    0,
+    420
+  ],
+  "frozen_sha256": "07000e800d9b7e809ae02d099a84e4f1ce73e51e856dec67202e5da5f8b83b55",
+  "lgbm_fit_seconds": 380.9,
+  "evaluated_at": "2026-10-14T21:14:17",
+  "final_model": {
+    "n_rows_scored": 659999,
+    "mae": 5.6883504845727435,
+    "rmse": 8.509327184286478,
+    "dir_acc": 0.5624219062753995,
+    "pearson_ic_mean": 0.19370724340154455,
+    "spearman_ic_mean": 0.18785894958016908,
+    "spearman_ic_tstat": 115.74629233318403,
+    "n_ic_groups": 3300
+  },
+  "lgbm_only_raw": {
+    "n_rows_scored": 659999,
+    "mae": 5.692425228795372,
+    "rmse": 8.511008327662557,
+    "dir_acc": 0.5612982664709522,
+    "pearson_ic_mean": 0.19360875370783742,
+    "spearman_ic_mean": 0.1872482180962605,
+    "spearman_ic_tstat": 115.0704912192889,
+    "n_ic_groups": 3300
+  },
+  "zero": {
+    "mae": 5.8152823856466895,
+    "rmse": 8.671046727668088
+  },
+  "train_median": {
+    "value": -0.069737434,
+    "mae": 5.8153417745412215
+  },
+  "environment": {
+    "python": "3.11.9",
+    "implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+    "logical_cpus": 8,
+    "physical_cpus": 4,
+    "ram_total_gb": 16.87,
+    "ram_available_gb_at_start": 4.53,
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.2.2",
+      "polars": "1.44.1",
+      "pyarrow": "17.0.0",
+      "lightgbm": "4.7.0",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.17.0",
+      "matplotlib": "3.9.0",
+      "psutil": "6.0.0",
+      "pytest": "9.0.2"
+    }
+  },
+  "ridge_only": {
+    "n_rows_scored": 659999,
+    "mae": 5.753365788651373,
+    "rmse": 8.593189469800695,
+    "dir_acc": 0.5469002098674075,
+    "pearson_ic_mean": 0.14396668528388817,
+    "spearman_ic_mean": 0.1478802013398426,
+    "spearman_ic_tstat": 92.88549946109207,
+    "n_ic_groups": 3300
+  },
+  "improvement_vs_zero_pct": 2.1827297912005106
+}

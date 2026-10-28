@@ -1,0 +1,551 @@
+{
+  "rule_selection": {
+    "criterion": "max dev Sharpe at 0.5 bps/side (open+close costs)",
+    "grid": [
+      {
+        "cap": 0.02,
+        "quantile": 1.0,
+        "gross": 1.0,
+        "min_names": 10,
+        "sharpe_gross": 87.53062484992293,
+        "sharpe_at_selection_cost": 58.249606717518446,
+        "mean_daily_bps_gross": 29.89329962985653,
+        "mean_daily_bps_at_cost": 19.89329962985653
+      },
+      {
+        "cap": 0.02,
+        "quantile": 0.4,
+        "gross": 1.0,
+        "min_names": 10,
+        "sharpe_gross": 87.47459405486275,
+        "sharpe_at_selection_cost": 58.80535859270467,
+        "mean_daily_bps_gross": 30.51165915126154,
+        "mean_daily_bps_at_cost": 20.511659151261533
+      },
+      {
+        "cap": 0.02,
+        "quantile": 0.2,
+        "gross": 1.0,
+        "min_names": 10,
+        "sharpe_gross": 85.38415465144816,
+        "sharpe_at_selection_cost": 60.777383562665484,
+        "mean_daily_bps_gross": 34.69945501722965,
+        "mean_daily_bps_at_cost": 24.699455017229653
+      },
+      {
+        "cap": 0.05,
+        "quantile": 1.0,
+        "gross": 1.0,
+        "min_names": 10,
+        "sharpe_gross": 83.9544805583705,
+        "sharpe_at_selection_cost": 57.648499913821155,
+        "mean_daily_bps_gross": 31.914598316168842,
+        "mean_daily_bps_at_cost": 21.914598316168842
+      },
+      {
+        "cap": 0.05,
+        "quantile": 0.4,
+        "gross": 1.0,
+        "min_names": 10,
+        "sharpe_gross": 83.97850186590152,
+        "sharpe_at_selection_cost": 58.27934694118901,
+        "mean_daily_bps_gross": 32.677534382715095,
+        "mean_daily_bps_at_cost": 22.6775343827151
+      },
+      {
+        "cap": 0.05,
+        "quantile": 0.2,
+        "gross": 1.0,
+        "min_names": 10,
+        "sharpe_gross": 81.74927089782186,
+        "sharpe_at_selection_cost": 60.764481494818874,
+        "mean_daily_bps_gross": 38.956440938179405,
+        "mean_daily_bps_at_cost": 28.956440938179398
+      }
+    ],
+    "selected": {
+      "cap": 0.02,
+      "quantile": 0.2,
+      "gross": 1.0,
+      "min_names": 10
+    }
+  },
+  "results": {
+    "dev": {
+      "label": "development OOF (rule chosen here: in-sample for the rule)",
+      "rule": {
+        "cap": 0.02,
+        "quantile": 0.2,
+        "gross": 1.0,
+        "min_names": 10
+      },
+      "decision_seconds": [
+        0,
+        60,
+        120,
+        180,
+        240,
+        300,
+        360,
+        420,
+        480,
+        540
+      ],
+      "dates": [
+        301,
+        420
+      ],
+      "target_proxy": {
+        "n_days": 120,
+        "n_intervals": 1200,
+        "n_active_intervals": 1200,
+        "mean_gross": 1.0,
+        "max_abs_net": 2.636779683484747e-16,
+        "max_abs_weight": 0.02,
+        "mean_names_long": 39.99166666666667,
+        "mean_names_short": 39.99166666666667,
+        "daily_turnover_open_close": 20.0,
+        "daily_turnover_netted": 15.14944726384683,
+        "by_cost": [
+          {
+            "cost_bps_per_side": 0.0,
+            "turnover": "open_close",
+            "mean_daily_bps": 34.69945501722965,
+            "std_daily_bps": 6.451276280464181,
+            "sharpe": 85.38415465144816,
+            "cum_return_bps": 4163.934602067558,
+            "max_drawdown_bps": 0.0,
+            "hit_rate_days": 1.0,
+            "bootstrap": {
+              "reps": 2000,
+              "block_days": 5,
+              "mean_daily_ci95": [
+                0.0033479591465722766,
+                0.003607000943489278
+              ],
+              "sharpe_ci95": [
+                74.8182106628725,
+                100.51166566440018
+              ],
+              "p_sharpe_le_0": 0.0
+            }
+          },
+          {
+            "cost_bps_per_side": 0.5,
+            "turnover": "open_close",
+            "mean_daily_bps": 24.699455017229653,
+            "std_daily_bps": 6.451276280464181,
+            "sharpe": 60.777383562665484,
+            "cum_return_bps": 2963.9346020675584,
+            "max_drawdown_bps": 0.0,
+            "hit_rate_days": 1.0,
+            "bootstrap": {
+              "reps": 2000,
+              "block_days": 5,
+              "mean_daily_ci95": [
+                0.0023479591465722766,
+                0.0026070009434892784
+              ],
+              "sharpe_ci95": [
+                53.62177121800571,
+                71.1092744694617
+              ],
+              "p_sharpe_le_0": 0.0
+            }
+          },
+          {
+            "cost_bps_per_side": 0.5,
+            "turnover": "netted",
+            "mean_daily_bps": 27.124731385306237,
+            "std_daily_bps": 6.436795945607437,
+            "sharpe": 66.89535684963495,
+            "cum_return_bps": 3254.967766236748,
+            "max_drawdown_bps": 0.0,
+            "hit_rate_days": 1.0
+          },
+          {
+            "cost_bps_per_side": 1.0,
+            "turnover": "open_close",
+            "mean_daily_bps": 14.699455017229651,
+            "std_daily_bps": 6.451276280464181,
+            "sharpe": 36.170612473882805,
+            "cum_return_bps": 1763.934602067558,
+            "max_drawdown_bps": 0.0,
+            "hit_rate_days": 1.0
+          },
+          {
+            "cost_bps_per_side": 1.0,
+            "turnover": "netted",
+            "mean_daily_bps": 19.550007753382825,
+            "std_daily_bps": 6.426590028427597,
+            "sharpe": 48.29104556167652,
+            "cum_return_bps": 2346.0009304059386,
+            "max_drawdown_bps": 0.0,
+            "hit_rate_days": 1.0
+          },
+          {
+            "cost_bps_per_side": 2.0,
+            "turnover": "open_close",
+            "mean_daily_bps": -5.300544982770351,
+            "std_daily_bps": 6.451276280464181,
+            "sharpe": -13.042929703682553,
+            "cum_return_bps": -636.0653979324421,
+            "max_drawdown_bps": -626.4647546209005,
+            "hit_rate_days": 0.15833333333333333
+          },
+          {
+            "cost_bps_per_side": 2.0,
+            "turnover": "netted",
+            "mean_daily_bps": 4.400560489535993,
+            "std_daily_bps": 6.419074461200988,
+            "sharpe": 10.882679820882366,
+            "cum_return_bps": 528.0672587443191,
+            "max_drawdown_bps": -19.51348166559907,
+            "hit_rate_days": 0.775
+          }
+        ],
+        "quoted_spread_cost": {
+          "assumption": "pay half the quoted spread of each traded name at entry and at exit (replaces the flat grid)",
+          "avg_round_trip_cost_bps_per_unit_gross": 7.993256759889196,
+          "mean_daily_bps": -45.23311258166231,
+          "std_daily_bps": 6.396991111486069,
+          "sharpe": -112.24861641741168,
+          "cum_return_bps": -5427.973509799477,
+          "max_drawdown_bps": -5384.497160123056,
+          "hit_rate_days": 0.0,
+          "bootstrap": {
+            "reps": 2000,
+            "block_days": 5,
+            "mean_daily_ci95": [
+              -0.004668220396949021,
+              -0.004365853239521069
+            ],
+            "sharpe_ci95": [
+              -127.35214478891088,
+              -99.93384506256166
+            ],
+            "p_sharpe_le_0": 1.0
+          }
+        }
+      }
+    },
+    "holdout": {
+      "label": "final holdout (rule frozen)",
+      "rule": {
+        "cap": 0.02,
+        "quantile": 0.2,
+        "gross": 1.0,
+        "min_names": 10
+      },
+      "decision_seconds": [
+        0,
+        60,
+        120,
+        180,
+        240,
+        300,
+        360,
+        420,
+        480,
+        540
+      ],
+      "dates": [
+        421,
+        480
+      ],
+      "target_proxy": {
+        "n_days": 60,
+        "n_intervals": 600,
+        "n_active_intervals": 600,
+        "mean_gross": 1.0,
+        "max_abs_net": 2.2898349882893854e-16,
+        "max_abs_weight": 0.02,
+        "mean_names_long": 40.0,
+        "mean_names_short": 40.0,
+        "daily_turnover_open_close": 20.0,
+        "daily_turnover_netted": 15.064717393843832,
+        "by_cost": [
+          {
+            "cost_bps_per_side": 0.0,
+            "turnover": "open_close",
+            "mean_daily_bps": 30.854559815812397,
+            "std_daily_bps": 6.576240443162172,
+            "sharpe": 74.48038993454429,
+            "cum_return_bps": 1851.273588948744,
+            "max_drawdown_bps": 0.0,
+            "hit_rate_days": 1.0,
+            "bootstrap": {
+              "reps": 2000,
+              "block_days": 5,
+              "mean_daily_ci95": [
+                0.00294300294784444,
+                0.003290072235462575
+              ],
+              "sharpe_ci95": [
+                58.54715618174572,
+                113.94882889965513
+              ],
+              "p_sharpe_le_0": 0.0
+            }
+          },
+          {
+            "cost_bps_per_side": 0.5,
+            "turnover": "open_close",
+            "mean_daily_bps": 20.854559815812397,
+            "std_daily_bps": 6.576240443162171,
+            "sharpe": 50.34120584663051,
+            "cum_return_bps": 1251.273588948744,
+            "max_drawdown_bps": 0.0,
+            "hit_rate_days": 1.0,
+            "bootstrap": {
+              "reps": 2000,
+              "block_days": 5,
+              "mean_daily_ci95": [
+                0.0019430029478444406,
+                0.0022900722354625746
+              ],
+              "sharpe_ci95": [
+                40.175975234379436,
+                75.69024802396898
+              ],
+              "p_sharpe_le_0": 0.0
+            }
+          },
+          {
+            "cost_bps_per_side": 0.5,
+            "turnover": "netted",
+            "mean_daily_bps": 23.322201118890483,
+            "std_daily_bps": 6.559173342932607,
+            "sharpe": 56.44437885182802,
+            "cum_return_bps": 1399.3320671334288,
+            "max_drawdown_bps": 0.0,
+            "hit_rate_days": 1.0
+          },
+          {
+            "cost_bps_per_side": 1.0,
+            "turnover": "open_close",
+            "mean_daily_bps": 10.854559815812395,
+            "std_daily_bps": 6.576240443162172,
+            "sharpe": 26.2020217587167,
+            "cum_return_bps": 651.2735889487437,
+            "max_drawdown_bps": 0.0,
+            "hit_rate_days": 1.0
+          },
+          {
+            "cost_bps_per_side": 1.0,
+            "turnover": "netted",
+            "mean_daily_bps": 15.789842421968569,
+            "std_daily_bps": 6.546803743328686,
+            "sharpe": 38.286771310654125,
+            "cum_return_bps": 947.390545318114,
+            "max_drawdown_bps": 0.0,
+            "hit_rate_days": 1.0
+          },
+          {
+            "cost_bps_per_side": 2.0,
+            "turnover": "open_close",
+            "mean_daily_bps": -9.145440184187605,
+            "std_daily_bps": 6.576240443162171,
+            "sharpe": -22.07634641711088,
+            "cum_return_bps": -548.7264110512563,
+            "max_drawdown_bps": -536.6234321989753,
+            "hit_rate_days": 0.05
+          },
+          {
+            "cost_bps_per_side": 2.0,
+            "turnover": "netted",
+            "mean_daily_bps": 0.7251250281247351,
+            "std_daily_bps": 6.536253596649893,
+            "sharpe": 1.7611010333167723,
+            "cum_return_bps": 43.50750168748411,
+            "max_drawdown_bps": -31.044787169256324,
+            "hit_rate_days": 0.4666666666666667
+          }
+        ],
+        "quoted_spread_cost": {
+          "assumption": "pay half the quoted spread of each traded name at entry and at exit (replaces the flat grid)",
+          "avg_round_trip_cost_bps_per_unit_gross": 7.186899791192963,
+          "mean_daily_bps": -41.01443809611722,
+          "std_daily_bps": 6.4681355420387865,
+          "sharpe": -100.66023136971138,
+          "cum_return_bps": -2460.8662857670333,
+          "max_drawdown_bps": -2412.1345390001384,
+          "hit_rate_days": 0.0,
+          "bootstrap": {
+            "reps": 2000,
+            "block_days": 5,
+            "mean_daily_ci95": [
+              -0.004265687581301972,
+              -0.0038647221359630695
+            ],
+            "sharpe_ci95": [
+              -117.15870127233217,
+              -90.04378089036975
+            ],
+            "p_sharpe_le_0": 1.0
+          }
+        }
+      },
+      "wap_robustness": {
+        "decision_seconds": [
+          0,
+          60,
+          120,
+          180,
+          240,
+          300,
+          360,
+          420,
+          480
+        ],
+        "wap_proxy": {
+          "n_days": 60,
+          "n_intervals": 540,
+          "n_active_intervals": 540,
+          "mean_gross": 1.0,
+          "max_abs_net": 1.8041124150158794e-16,
+          "max_abs_weight": 0.02,
+          "mean_names_long": 40.0,
+          "mean_names_short": 40.0,
+          "daily_turnover_open_close": 18.0,
+          "daily_turnover_netted": 13.637168787320286,
+          "by_cost": [
+            {
+              "cost_bps_per_side": 0.0,
+              "turnover": "open_close",
+              "mean_daily_bps": 25.178570177408645,
+              "std_daily_bps": 5.813102998500752,
+              "sharpe": 68.75801279432855,
+              "cum_return_bps": 1510.7142106445187,
+              "max_drawdown_bps": 0.0,
+              "hit_rate_days": 1.0,
+              "bootstrap": {
+                "reps": 2000,
+                "block_days": 5,
+                "mean_daily_ci95": [
+                  0.002401218297002429,
+                  0.0026936283277959926
+                ],
+                "sharpe_ci95": [
+                  54.19477773576256,
+                  99.42261325695607
+                ],
+                "p_sharpe_le_0": 0.0
+              }
+            },
+            {
+              "cost_bps_per_side": 0.5,
+              "turnover": "open_close",
+              "mean_daily_bps": 16.178570177408645,
+              "std_daily_bps": 5.813102998500751,
+              "sharpe": 44.18067934017586,
+              "cum_return_bps": 970.7142106445186,
+              "max_drawdown_bps": 0.0,
+              "hit_rate_days": 1.0,
+              "bootstrap": {
+                "reps": 2000,
+                "block_days": 5,
+                "mean_daily_ci95": [
+                  0.0015012182970024286,
+                  0.0017936283277959926
+                ],
+                "sharpe_ci95": [
+                  35.40151245280835,
+                  63.23572698440678
+                ],
+                "p_sharpe_le_0": 0.0
+              }
+            },
+            {
+              "cost_bps_per_side": 0.5,
+              "turnover": "netted",
+              "mean_daily_bps": 18.359985783748503,
+              "std_daily_bps": 5.786955510445609,
+              "sharpe": 50.36426117753863,
+              "cum_return_bps": 1101.59914702491,
+              "max_drawdown_bps": 0.0,
+              "hit_rate_days": 1.0
+            },
+            {
+              "cost_bps_per_side": 1.0,
+              "turnover": "open_close",
+              "mean_daily_bps": 7.178570177408646,
+              "std_daily_bps": 5.813102998500752,
+              "sharpe": 19.603345886023153,
+              "cum_return_bps": 430.71421064451874,
+              "max_drawdown_bps": -2.2710788933475583,
+              "hit_rate_days": 0.95
+            },
+            {
+              "cost_bps_per_side": 1.0,
+              "turnover": "netted",
+              "mean_daily_bps": 11.541401390088359,
+              "std_daily_bps": 5.764721421825101,
+              "sharpe": 31.781946385552928,
+              "cum_return_bps": 692.4840834053015,
+              "max_drawdown_bps": 0.0,
+              "hit_rate_days": 1.0
+            },
+            {
+              "cost_bps_per_side": 2.0,
+              "turnover": "open_close",
+              "mean_daily_bps": -10.821429822591357,
+              "std_daily_bps": 5.813102998500752,
+              "sharpe": -29.55132102228225,
+              "cum_return_bps": -649.2857893554814,
+              "max_drawdown_bps": -635.6539855863382,
+              "hit_rate_days": 0.05
+            },
+            {
+              "cost_bps_per_side": 2.0,
+              "turnover": "netted",
+              "mean_daily_bps": -2.0957673972319273,
+              "std_daily_bps": 5.732167583211101,
+              "sharpe": -5.803960814216055,
+              "cum_return_bps": -125.74604383391564,
+              "max_drawdown_bps": -120.69201943379707,
+              "hit_rate_days": 0.31666666666666665
+            }
+          ]
+        },
+        "target_proxy_same_schedule": {
+          "n_days": 60,
+          "n_intervals": 540,
+          "n_active_intervals": 540,
+          "mean_gross": 1.0,
+          "max_abs_net": 1.8041124150158794e-16,
+          "max_abs_weight": 0.02,
+          "mean_names_long": 40.0,
+          "mean_names_short": 40.0,
+          "daily_turnover_open_close": 18.0,
+          "daily_turnover_netted": 13.637168787320286,
+          "by_cost": [
+            {
+              "cost_bps_per_side": 0.0,
+              "turnover": "open_close",
+              "mean_daily_bps": 25.181402903751497,
+              "std_daily_bps": 5.815929862568132,
+              "sharpe": 68.7323244826346,
+              "cum_return_bps": 1510.8841742250897,
+              "max_drawdown_bps": 0.0,
+              "hit_rate_days": 1.0,
+              "bootstrap": {
+                "reps": 2000,
+                "block_days": 5,
+                "mean_daily_ci95": [
+                  0.002401473410800941,
+                  0.002693713894242404
+                ],
+                "sharpe_ci95": [
+                  54.19393335170473,
+                  99.22227208120057
+                ],
+                "p_sharpe_le_0": 0.0
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

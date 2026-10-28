@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "optiver_tc"
+version = "0.1.0"
+description = "Optiver Trading at the Close: 60s index-relative WAP move forecasting, streaming inference and a target-based research-proxy backtest."
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "polars>=1.0",
+    "pyarrow>=14",
+    "lightgbm>=4.0",
+    "scikit-learn>=1.3",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "psutil>=5.9",
+    "tomli>=2.0; python_version < '3.11'",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+optiver-tc = "optiver_tc.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+norecursedirs = ["data", "artifacts", "reports", ".venv", "*.egg-info"]
+addopts = "-q"

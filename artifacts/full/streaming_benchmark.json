@@ -1,0 +1,75 @@
+{
+  "what": "wall-clock per predict() call: input coercion + features (history+batch) + model + post-processing",
+  "days": [
+    421,
+    422,
+    423,
+    424,
+    425
+  ],
+  "stocks_per_batch_mean": 200.0,
+  "model_threads": 1,
+  "bundle_load_s": 0.04014849999657599,
+  "first_call_in_process_ms": 42.62400000152411,
+  "warm": {
+    "n": 270,
+    "p50_ms": 33.2912000012584,
+    "p95_ms": 37.49396999955934,
+    "p99_ms": 42.34920400347619,
+    "max_ms": 70.09799999650568,
+    "mean_ms": 33.9192351855066
+  },
+  "first_batch_of_day_after_reset": {
+    "n": 4,
+    "p50_ms": 31.903849998343503,
+    "p95_ms": 34.30843999994977,
+    "p99_ms": 34.491368000235525,
+    "max_ms": 34.537100000306964,
+    "mean_ms": 32.120099998792284
+  },
+  "cold_fresh_process": [
+    {
+      "import_s": 1.7909407999977702,
+      "load_bundle_s": 0.040735399998084176,
+      "first_batch_s": 0.04251069999736501
+    },
+    {
+      "import_s": 1.7643449000024702,
+      "load_bundle_s": 0.04567030000180239,
+      "first_batch_s": 0.04199520000111079
+    },
+    {
+      "import_s": 1.7857210000001942,
+      "load_bundle_s": 0.047553799995512236,
+      "first_batch_s": 0.043036700000811834
+    }
+  ],
+  "rss_mb_before_load": 205.193216,
+  "rss_mb_after_replay": 232.964096,
+  "state_rows_at_end": 1400,
+  "model_files_mb": 10.772493,
+  "environment": {
+    "python": "3.11.9",
+    "implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+    "logical_cpus": 8,
+    "physical_cpus": 4,
+    "ram_total_gb": 16.87,
+    "ram_available_gb_at_start": 4.52,
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.2.2",
+      "polars": "1.44.1",
+      "pyarrow": "17.0.0",
+      "lightgbm": "4.7.0",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.17.0",
+      "matplotlib": "3.9.0",
+      "psutil": "6.0.0",
+      "pytest": "9.0.2"
+    }
+  },
+  "caveat": "Single machine, single run, other applications running. Not a latency guarantee."
+}

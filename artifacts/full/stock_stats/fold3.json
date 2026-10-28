@@ -1,0 +1,1402 @@
+[
+  {
+    "stock_id": 0,
+    "st_med_log_matched": 16.8276309967041,
+    "st_med_spread": 2.0538220405578613,
+    "st_med_log_quoted": 10.673377990722656,
+    "st_med_absret10": 1.4732508659362793
+  },
+  {
+    "stock_id": 1,
+    "st_med_log_matched": 14.744524955749512,
+    "st_med_spread": 8.145965576171875,
+    "st_med_log_quoted": 10.34730339050293,
+    "st_med_absret10": 2.619748115539551
+  },
+  {
+    "stock_id": 2,
+    "st_med_log_matched": 15.037138938903809,
+    "st_med_spread": 8.479119300842285,
+    "st_med_log_quoted": 10.311209678649902,
+    "st_med_absret10": 2.1780636310577393
+  },
+  {
+    "stock_id": 3,
+    "st_med_log_matched": 17.899038314819336,
+    "st_med_spread": 1.8919590711593628,
+    "st_med_log_quoted": 10.735479354858398,
+    "st_med_absret10": 1.6131033897399902
+  },
+  {
+    "stock_id": 4,
+    "st_med_log_matched": 16.915142059326172,
+    "st_med_spread": 2.3930788040161133,
+    "st_med_log_quoted": 10.589742660522461,
+    "st_med_absret10": 1.8061323165893555
+  },
+  {
+    "stock_id": 5,
+    "st_med_log_matched": 16.26991844177246,
+    "st_med_spread": 4.17971134185791,
+    "st_med_log_quoted": 10.446063995361328,
+    "st_med_absret10": 2.6040141582489014
+  },
+  {
+    "stock_id": 6,
+    "st_med_log_matched": 15.938064575195312,
+    "st_med_spread": 7.785254955291748,
+    "st_med_log_quoted": 10.797134399414062,
+    "st_med_absret10": 2.3523457050323486
+  },
+  {
+    "stock_id": 7,
+    "st_med_log_matched": 17.880489349365234,
+    "st_med_spread": 5.1096038818359375,
+    "st_med_log_quoted": 10.914753913879395,
+    "st_med_absret10": 2.801191806793213
+  },
+  {
+    "stock_id": 8,
+    "st_med_log_matched": 17.55298614501953,
+    "st_med_spread": 8.683032035827637,
+    "st_med_log_quoted": 11.672754287719727,
+    "st_med_absret10": 2.7092995643615723
+  },
+  {
+    "stock_id": 9,
+    "st_med_log_matched": 15.983197212219238,
+    "st_med_spread": 2.268673896789551,
+    "st_med_log_quoted": 10.505973815917969,
+    "st_med_absret10": 1.529866099357605
+  },
+  {
+    "stock_id": 10,
+    "st_med_log_matched": 16.180179595947266,
+    "st_med_spread": 3.1418046951293945,
+    "st_med_log_quoted": 10.605929374694824,
+    "st_med_absret10": 1.552476167678833
+  },
+  {
+    "stock_id": 11,
+    "st_med_log_matched": 15.662129402160645,
+    "st_med_spread": 5.326018810272217,
+    "st_med_log_quoted": 10.330109596252441,
+    "st_med_absret10": 3.779391288757324
+  },
+  {
+    "stock_id": 12,
+    "st_med_log_matched": 18.08034896850586,
+    "st_med_spread": 2.189075231552124,
+    "st_med_log_quoted": 10.903728485107422,
+    "st_med_absret10": 1.5507537126541138
+  },
+  {
+    "stock_id": 13,
+    "st_med_log_matched": 16.750106811523438,
+    "st_med_spread": 3.558669090270996,
+    "st_med_log_quoted": 10.359101295471191,
+    "st_med_absret10": 2.318218469619751
+  },
+  {
+    "stock_id": 14,
+    "st_med_log_matched": 18.373567581176758,
+    "st_med_spread": 3.0082387924194336,
+    "st_med_log_quoted": 10.991312980651855,
+    "st_med_absret10": 2.1592700481414795
+  },
+  {
+    "stock_id": 15,
+    "st_med_log_matched": 16.82417869567871,
+    "st_med_spread": 2.5393855571746826,
+    "st_med_log_quoted": 10.635465621948242,
+    "st_med_absret10": 2.284778118133545
+  },
+  {
+    "stock_id": 16,
+    "st_med_log_matched": 16.020357131958008,
+    "st_med_spread": 7.951609134674072,
+    "st_med_log_quoted": 10.741114616394043,
+    "st_med_absret10": 2.2704882621765137
+  },
+  {
+    "stock_id": 17,
+    "st_med_log_matched": 17.65542984008789,
+    "st_med_spread": 5.340437889099121,
+    "st_med_log_quoted": 10.750162124633789,
+    "st_med_absret10": 2.7606115341186523
+  },
+  {
+    "stock_id": 18,
+    "st_med_log_matched": 15.588370323181152,
+    "st_med_spread": 3.51379656791687,
+    "st_med_log_quoted": 10.473835945129395,
+    "st_med_absret10": 2.501573085784912
+  },
+  {
+    "stock_id": 19,
+    "st_med_log_matched": 15.833717346191406,
+    "st_med_spread": 8.585090637207031,
+    "st_med_log_quoted": 10.585855484008789,
+    "st_med_absret10": 2.5760738849639893
+  },
+  {
+    "stock_id": 20,
+    "st_med_log_matched": 16.226295471191406,
+    "st_med_spread": 4.7965593338012695,
+    "st_med_log_quoted": 10.844917297363281,
+    "st_med_absret10": 2.061105728149414
+  },
+  {
+    "stock_id": 21,
+    "st_med_log_matched": 15.478471755981445,
+    "st_med_spread": 2.0872833728790283,
+    "st_med_log_quoted": 10.655118942260742,
+    "st_med_absret10": 1.2485716342926025
+  },
+  {
+    "stock_id": 22,
+    "st_med_log_matched": 17.09804916381836,
+    "st_med_spread": 2.071589946746826,
+    "st_med_log_quoted": 10.766648292541504,
+    "st_med_absret10": 2.541884422302246
+  },
+  {
+    "stock_id": 23,
+    "st_med_log_matched": 16.940631866455078,
+    "st_med_spread": 2.829144239425659,
+    "st_med_log_quoted": 10.411996841430664,
+    "st_med_absret10": 2.167787790298462
+  },
+  {
+    "stock_id": 24,
+    "st_med_log_matched": 16.394638061523438,
+    "st_med_spread": 2.3302109241485596,
+    "st_med_log_quoted": 10.737190246582031,
+    "st_med_absret10": 1.4149787425994873
+  },
+  {
+    "stock_id": 25,
+    "st_med_log_matched": 16.37079429626465,
+    "st_med_spread": 3.0818676948547363,
+    "st_med_log_quoted": 10.583318710327148,
+    "st_med_absret10": 1.5899808406829834
+  },
+  {
+    "stock_id": 26,
+    "st_med_log_matched": 16.03705406188965,
+    "st_med_spread": 6.796499729156494,
+    "st_med_log_quoted": 13.417678833007812,
+    "st_med_absret10": 0.6602743268013
+  },
+  {
+    "stock_id": 27,
+    "st_med_log_matched": 16.45848274230957,
+    "st_med_spread": 4.030024528503418,
+    "st_med_log_quoted": 10.329506874084473,
+    "st_med_absret10": 2.349741220474243
+  },
+  {
+    "stock_id": 28,
+    "st_med_log_matched": 16.439998626708984,
+    "st_med_spread": 3.165980577468872,
+    "st_med_log_quoted": 10.367393493652344,
+    "st_med_absret10": 2.4204764366149902
+  },
+  {
+    "stock_id": 29,
+    "st_med_log_matched": 17.017812728881836,
+    "st_med_spread": 5.321431636810303,
+    "st_med_log_quoted": 11.174189567565918,
+    "st_med_absret10": 1.8266595602035522
+  },
+  {
+    "stock_id": 30,
+    "st_med_log_matched": 15.768646240234375,
+    "st_med_spread": 1.7738977670669556,
+    "st_med_log_quoted": 10.724462509155273,
+    "st_med_absret10": 1.5189725160598755
+  },
+  {
+    "stock_id": 31,
+    "st_med_log_matched": 13.721078872680664,
+    "st_med_spread": 14.239571571350098,
+    "st_med_log_quoted": 11.746910095214844,
+    "st_med_absret10": 0.9808145761489868
+  },
+  {
+    "stock_id": 32,
+    "st_med_log_matched": 16.10283660888672,
+    "st_med_spread": 2.3892319202423096,
+    "st_med_log_quoted": 10.546862602233887,
+    "st_med_absret10": 1.5735349655151367
+  },
+  {
+    "stock_id": 33,
+    "st_med_log_matched": 15.249215126037598,
+    "st_med_spread": 4.42558479309082,
+    "st_med_log_quoted": 10.227310180664062,
+    "st_med_absret10": 2.6804986000061035
+  },
+  {
+    "stock_id": 34,
+    "st_med_log_matched": 17.37470245361328,
+    "st_med_spread": 6.07266902923584,
+    "st_med_log_quoted": 11.16765022277832,
+    "st_med_absret10": 2.1925292015075684
+  },
+  {
+    "stock_id": 35,
+    "st_med_log_matched": 16.67194366455078,
+    "st_med_spread": 1.891409993171692,
+    "st_med_log_quoted": 10.500819206237793,
+    "st_med_absret10": 1.6900033950805664
+  },
+  {
+    "stock_id": 36,
+    "st_med_log_matched": 17.077491760253906,
+    "st_med_spread": 2.329998016357422,
+    "st_med_log_quoted": 10.801520347595215,
+    "st_med_absret10": 1.7007577419281006
+  },
+  {
+    "stock_id": 37,
+    "st_med_log_matched": 17.623292922973633,
+    "st_med_spread": 2.636596202850342,
+    "st_med_log_quoted": 10.701190948486328,
+    "st_med_absret10": 1.689848780632019
+  },
+  {
+    "stock_id": 38,
+    "st_med_log_matched": 17.431310653686523,
+    "st_med_spread": 1.3075098991394043,
+    "st_med_log_quoted": 11.435812950134277,
+    "st_med_absret10": 1.1768503189086914
+  },
+  {
+    "stock_id": 39,
+    "st_med_log_matched": 16.72159194946289,
+    "st_med_spread": 4.962406635284424,
+    "st_med_log_quoted": 10.786673545837402,
+    "st_med_absret10": 1.9011739492416382
+  },
+  {
+    "stock_id": 40,
+    "st_med_log_matched": 15.843121528625488,
+    "st_med_spread": 2.672855854034424,
+    "st_med_log_quoted": 10.379140853881836,
+    "st_med_absret10": 2.4994680881500244
+  },
+  {
+    "stock_id": 41,
+    "st_med_log_matched": 19.359649658203125,
+    "st_med_spread": 1.5195486545562744,
+    "st_med_log_quoted": 10.854339599609375,
+    "st_med_absret10": 2.6863715648651123
+  },
+  {
+    "stock_id": 42,
+    "st_med_log_matched": 15.04523754119873,
+    "st_med_spread": 10.693955421447754,
+    "st_med_log_quoted": 10.481624603271484,
+    "st_med_absret10": 2.921074151992798
+  },
+  {
+    "stock_id": 43,
+    "st_med_log_matched": 15.77509593963623,
+    "st_med_spread": 4.377246856689453,
+    "st_med_log_quoted": 10.519342422485352,
+    "st_med_absret10": 1.6087194681167603
+  },
+  {
+    "stock_id": 44,
+    "st_med_log_matched": 17.13610076904297,
+    "st_med_spread": 2.7467873096466064,
+    "st_med_log_quoted": 10.769227981567383,
+    "st_med_absret10": 1.6275830268859863
+  },
+  {
+    "stock_id": 45,
+    "st_med_log_matched": 20.37784767150879,
+    "st_med_spread": 0.7962076663970947,
+    "st_med_log_quoted": 11.346985816955566,
+    "st_med_absret10": 1.884629726409912
+  },
+  {
+    "stock_id": 46,
+    "st_med_log_matched": 15.672491073608398,
+    "st_med_spread": 9.70255184173584,
+    "st_med_log_quoted": 10.768104553222656,
+    "st_med_absret10": 2.422633647918701
+  },
+  {
+    "stock_id": 47,
+    "st_med_log_matched": 15.12943172454834,
+    "st_med_spread": 3.983649969100952,
+    "st_med_log_quoted": 10.405799865722656,
+    "st_med_absret10": 1.8200000524520874
+  },
+  {
+    "stock_id": 48,
+    "st_med_log_matched": 16.773786544799805,
+    "st_med_spread": 3.2820491790771484,
+    "st_med_log_quoted": 10.783342361450195,
+    "st_med_absret10": 2.1379566192626953
+  },
+  {
+    "stock_id": 49,
+    "st_med_log_matched": 16.21744728088379,
+    "st_med_spread": 2.654245376586914,
+    "st_med_log_quoted": 11.937137603759766,
+    "st_med_absret10": 1.592536211013794
+  },
+  {
+    "stock_id": 50,
+    "st_med_log_matched": 16.59392547607422,
+    "st_med_spread": 3.3420908451080322,
+    "st_med_log_quoted": 10.577659606933594,
+    "st_med_absret10": 2.431070327758789
+  },
+  {
+    "stock_id": 51,
+    "st_med_log_matched": 15.939230918884277,
+    "st_med_spread": 3.850712776184082,
+    "st_med_log_quoted": 10.25153636932373,
+    "st_med_absret10": 3.0231878757476807
+  },
+  {
+    "stock_id": 52,
+    "st_med_log_matched": 15.763163566589355,
+    "st_med_spread": 3.943566083908081,
+    "st_med_log_quoted": 10.360309600830078,
+    "st_med_absret10": 1.6653614044189453
+  },
+  {
+    "stock_id": 53,
+    "st_med_log_matched": 16.962596893310547,
+    "st_med_spread": 2.1503279209136963,
+    "st_med_log_quoted": 11.32595157623291,
+    "st_med_absret10": 1.759261131286621
+  },
+  {
+    "stock_id": 54,
+    "st_med_log_matched": 17.026033401489258,
+    "st_med_spread": 4.882636547088623,
+    "st_med_log_quoted": 10.57933235168457,
+    "st_med_absret10": 2.290065288543701
+  },
+  {
+    "stock_id": 55,
+    "st_med_log_matched": 16.626495361328125,
+    "st_med_spread": 1.9405568838119507,
+    "st_med_log_quoted": 11.142471313476562,
+    "st_med_absret10": 1.6220347881317139
+  },
+  {
+    "stock_id": 56,
+    "st_med_log_matched": 16.329734802246094,
+    "st_med_spread": 3.8187737464904785,
+    "st_med_log_quoted": 10.466498374938965,
+    "st_med_absret10": 2.6936028003692627
+  },
+  {
+    "stock_id": 57,
+    "st_med_log_matched": 16.787546157836914,
+    "st_med_spread": 7.135904788970947,
+    "st_med_log_quoted": 10.769433975219727,
+    "st_med_absret10": 2.455754041671753
+  },
+  {
+    "stock_id": 58,
+    "st_med_log_matched": 17.958736419677734,
+    "st_med_spread": 4.267326354980469,
+    "st_med_log_quoted": 10.962360382080078,
+    "st_med_absret10": 2.350456714630127
+  },
+  {
+    "stock_id": 59,
+    "st_med_log_matched": 15.702229499816895,
+    "st_med_spread": 2.9717013835906982,
+    "st_med_log_quoted": 10.561041831970215,
+    "st_med_absret10": 2.4244275093078613
+  },
+  {
+    "stock_id": 60,
+    "st_med_log_matched": 16.872507095336914,
+    "st_med_spread": 3.6159284114837646,
+    "st_med_log_quoted": 10.486322402954102,
+    "st_med_absret10": 2.5342154502868652
+  },
+  {
+    "stock_id": 61,
+    "st_med_log_matched": 15.583930015563965,
+    "st_med_spread": 5.332914352416992,
+    "st_med_log_quoted": 11.473531723022461,
+    "st_med_absret10": 1.8172205686569214
+  },
+  {
+    "stock_id": 62,
+    "st_med_log_matched": 15.21076774597168,
+    "st_med_spread": 9.337688446044922,
+    "st_med_log_quoted": 10.457021713256836,
+    "st_med_absret10": 2.776881694793701
+  },
+  {
+    "stock_id": 63,
+    "st_med_log_matched": 15.736339569091797,
+    "st_med_spread": 2.0072550773620605,
+    "st_med_log_quoted": 10.594582557678223,
+    "st_med_absret10": 1.5110864639282227
+  },
+  {
+    "stock_id": 64,
+    "st_med_log_matched": 15.650853157043457,
+    "st_med_spread": 7.678050518035889,
+    "st_med_log_quoted": 10.659296035766602,
+    "st_med_absret10": 2.075784206390381
+  },
+  {
+    "stock_id": 65,
+    "st_med_log_matched": 17.082006454467773,
+    "st_med_spread": 2.197422504425049,
+    "st_med_log_quoted": 11.955423355102539,
+    "st_med_absret10": 1.6799607276916504
+  },
+  {
+    "stock_id": 66,
+    "st_med_log_matched": 15.67234992980957,
+    "st_med_spread": 4.206632614135742,
+    "st_med_log_quoted": 10.367177963256836,
+    "st_med_absret10": 1.843860149383545
+  },
+  {
+    "stock_id": 67,
+    "st_med_log_matched": 17.457332611083984,
+    "st_med_spread": 4.281712532043457,
+    "st_med_log_quoted": 10.460817337036133,
+    "st_med_absret10": 3.015298366546631
+  },
+  {
+    "stock_id": 68,
+    "st_med_log_matched": 16.9093074798584,
+    "st_med_spread": 2.515904188156128,
+    "st_med_log_quoted": 10.722566604614258,
+    "st_med_absret10": 1.5639724731445312
+  },
+  {
+    "stock_id": 69,
+    "st_med_log_matched": 14.584371566772461,
+    "st_med_spread": 14.374561309814453,
+    "st_med_log_quoted": 12.849230766296387,
+    "st_med_absret10": 0.938441276550293
+  },
+  {
+    "stock_id": 70,
+    "st_med_log_matched": 14.39007568359375,
+    "st_med_spread": 6.349372386932373,
+    "st_med_log_quoted": 10.031539916992188,
+    "st_med_absret10": 2.8889267444610596
+  },
+  {
+    "stock_id": 71,
+    "st_med_log_matched": 17.09235954284668,
+    "st_med_spread": 7.227199554443359,
+    "st_med_log_quoted": 11.257574081420898,
+    "st_med_absret10": 2.2415499687194824
+  },
+  {
+    "stock_id": 72,
+    "st_med_log_matched": 17.92171287536621,
+    "st_med_spread": 1.8588753938674927,
+    "st_med_log_quoted": 10.620046615600586,
+    "st_med_absret10": 1.9447379112243652
+  },
+  {
+    "stock_id": 73,
+    "st_med_log_matched": 15.912094116210938,
+    "st_med_spread": 4.0587663650512695,
+    "st_med_log_quoted": 11.860694885253906,
+    "st_med_absret10": 0.5895649194717407
+  },
+  {
+    "stock_id": 74,
+    "st_med_log_matched": 16.584148406982422,
+    "st_med_spread": 6.849171161651611,
+    "st_med_log_quoted": 10.698789596557617,
+    "st_med_absret10": 2.7780611515045166
+  },
+  {
+    "stock_id": 75,
+    "st_med_log_matched": 16.91854476928711,
+    "st_med_spread": 2.953078508377075,
+    "st_med_log_quoted": 10.47716236114502,
+    "st_med_absret10": 1.9624730348587036
+  },
+  {
+    "stock_id": 76,
+    "st_med_log_matched": 15.680889129638672,
+    "st_med_spread": 3.094048500061035,
+    "st_med_log_quoted": 10.523731231689453,
+    "st_med_absret10": 1.5188486576080322
+  },
+  {
+    "stock_id": 77,
+    "st_med_log_matched": 17.339736938476562,
+    "st_med_spread": 3.6409430503845215,
+    "st_med_log_quoted": 10.702202796936035,
+    "st_med_absret10": 1.8277819156646729
+  },
+  {
+    "stock_id": 78,
+    "st_med_log_matched": 14.12755298614502,
+    "st_med_spread": 9.443270683288574,
+    "st_med_log_quoted": 11.580560684204102,
+    "st_med_absret10": 1.3385306596755981
+  },
+  {
+    "stock_id": 79,
+    "st_med_log_matched": 16.448837280273438,
+    "st_med_spread": 7.588192939758301,
+    "st_med_log_quoted": 12.338360786437988,
+    "st_med_absret10": 1.062003493309021
+  },
+  {
+    "stock_id": 80,
+    "st_med_log_matched": 14.6997709274292,
+    "st_med_spread": 7.887196063995361,
+    "st_med_log_quoted": 9.906205177307129,
+    "st_med_absret10": 3.2964301109313965
+  },
+  {
+    "stock_id": 81,
+    "st_med_log_matched": 16.157411575317383,
+    "st_med_spread": 6.374337673187256,
+    "st_med_log_quoted": 10.401347160339355,
+    "st_med_absret10": 2.387652635574341
+  },
+  {
+    "stock_id": 82,
+    "st_med_log_matched": 14.513819694519043,
+    "st_med_spread": 14.011309623718262,
+    "st_med_log_quoted": 11.964371681213379,
+    "st_med_absret10": 1.239994764328003
+  },
+  {
+    "stock_id": 83,
+    "st_med_log_matched": 18.56549072265625,
+    "st_med_spread": 2.2518250942230225,
+    "st_med_log_quoted": 13.001842498779297,
+    "st_med_absret10": 1.8503978252410889
+  },
+  {
+    "stock_id": 84,
+    "st_med_log_matched": 19.19325828552246,
+    "st_med_spread": 2.7168233394622803,
+    "st_med_log_quoted": 11.291374206542969,
+    "st_med_absret10": 2.0477373600006104
+  },
+  {
+    "stock_id": 85,
+    "st_med_log_matched": 15.989958763122559,
+    "st_med_spread": 9.718914985656738,
+    "st_med_log_quoted": 10.354626655578613,
+    "st_med_absret10": 3.458191394805908
+  },
+  {
+    "stock_id": 86,
+    "st_med_log_matched": 14.930964469909668,
+    "st_med_spread": 7.1789231300354,
+    "st_med_log_quoted": 10.196959495544434,
+    "st_med_absret10": 4.174202919006348
+  },
+  {
+    "stock_id": 87,
+    "st_med_log_matched": 15.936454772949219,
+    "st_med_spread": 4.663438320159912,
+    "st_med_log_quoted": 10.068042755126953,
+    "st_med_absret10": 2.6937904357910156
+  },
+  {
+    "stock_id": 88,
+    "st_med_log_matched": 18.307897567749023,
+    "st_med_spread": 2.4888288974761963,
+    "st_med_log_quoted": 10.796530723571777,
+    "st_med_absret10": 2.104055643081665
+  },
+  {
+    "stock_id": 89,
+    "st_med_log_matched": 16.3698787689209,
+    "st_med_spread": 4.83661413192749,
+    "st_med_log_quoted": 10.295791625976562,
+    "st_med_absret10": 2.582775115966797
+  },
+  {
+    "stock_id": 90,
+    "st_med_log_matched": 15.59788990020752,
+    "st_med_spread": 5.086500644683838,
+    "st_med_log_quoted": 10.360371589660645,
+    "st_med_absret10": 1.9528863430023193
+  },
+  {
+    "stock_id": 91,
+    "st_med_log_matched": 16.4043025970459,
+    "st_med_spread": 3.1727428436279297,
+    "st_med_log_quoted": 10.376190185546875,
+    "st_med_absret10": 2.5208358764648438
+  },
+  {
+    "stock_id": 92,
+    "st_med_log_matched": 14.623932838439941,
+    "st_med_spread": 16.913379669189453,
+    "st_med_log_quoted": 10.432188034057617,
+    "st_med_absret10": 4.809219837188721
+  },
+  {
+    "stock_id": 93,
+    "st_med_log_matched": 15.401473045349121,
+    "st_med_spread": 1.9807844161987305,
+    "st_med_log_quoted": 10.366585731506348,
+    "st_med_absret10": 1.814326286315918
+  },
+  {
+    "stock_id": 94,
+    "st_med_log_matched": 14.992218017578125,
+    "st_med_spread": 9.42227840423584,
+    "st_med_log_quoted": 10.34034538269043,
+    "st_med_absret10": 2.675525188446045
+  },
+  {
+    "stock_id": 95,
+    "st_med_log_matched": 18.539905548095703,
+    "st_med_spread": 1.3614158630371094,
+    "st_med_log_quoted": 11.423484802246094,
+    "st_med_absret10": 2.429257869720459
+  },
+  {
+    "stock_id": 96,
+    "st_med_log_matched": 17.444564819335938,
+    "st_med_spread": 2.201582908630371,
+    "st_med_log_quoted": 10.907334327697754,
+    "st_med_absret10": 2.637032985687256
+  },
+  {
+    "stock_id": 97,
+    "st_med_log_matched": 15.423542022705078,
+    "st_med_spread": 5.856550693511963,
+    "st_med_log_quoted": 10.28230094909668,
+    "st_med_absret10": 2.1036226749420166
+  },
+  {
+    "stock_id": 98,
+    "st_med_log_matched": 14.603965759277344,
+    "st_med_spread": 9.145723342895508,
+    "st_med_log_quoted": 12.562559127807617,
+    "st_med_absret10": 0.650409460067749
+  },
+  {
+    "stock_id": 99,
+    "st_med_log_matched": 16.244298934936523,
+    "st_med_spread": 3.42594051361084,
+    "st_med_log_quoted": 11.71716594696045,
+    "st_med_absret10": 1.333341360092163
+  },
+  {
+    "stock_id": 100,
+    "st_med_log_matched": 14.2671480178833,
+    "st_med_spread": 10.794934272766113,
+    "st_med_log_quoted": 10.95844554901123,
+    "st_med_absret10": 1.2645351886749268
+  },
+  {
+    "stock_id": 101,
+    "st_med_log_matched": 14.833163261413574,
+    "st_med_spread": 19.273662567138672,
+    "st_med_log_quoted": 11.394331932067871,
+    "st_med_absret10": 2.286566734313965
+  },
+  {
+    "stock_id": 102,
+    "st_med_log_matched": 16.417396545410156,
+    "st_med_spread": 5.07514762878418,
+    "st_med_log_quoted": 10.635238647460938,
+    "st_med_absret10": 2.9325616359710693
+  },
+  {
+    "stock_id": 103,
+    "st_med_log_matched": 16.316984176635742,
+    "st_med_spread": 4.255078315734863,
+    "st_med_log_quoted": 10.584815979003906,
+    "st_med_absret10": 2.568272829055786
+  },
+  {
+    "stock_id": 104,
+    "st_med_log_matched": 16.84296417236328,
+    "st_med_spread": 2.3156142234802246,
+    "st_med_log_quoted": 11.588835716247559,
+    "st_med_absret10": 1.5152277946472168
+  },
+  {
+    "stock_id": 105,
+    "st_med_log_matched": 17.562517166137695,
+    "st_med_spread": 1.5928455591201782,
+    "st_med_log_quoted": 12.061159133911133,
+    "st_med_absret10": 1.3903566598892212
+  },
+  {
+    "stock_id": 106,
+    "st_med_log_matched": 15.755335807800293,
+    "st_med_spread": 3.3735969066619873,
+    "st_med_log_quoted": 10.29055118560791,
+    "st_med_absret10": 1.7579476833343506
+  },
+  {
+    "stock_id": 107,
+    "st_med_log_matched": 15.421929359436035,
+    "st_med_spread": 9.73017692565918,
+    "st_med_log_quoted": 10.678671836853027,
+    "st_med_absret10": 2.626234531402588
+  },
+  {
+    "stock_id": 108,
+    "st_med_log_matched": 15.905933380126953,
+    "st_med_spread": 7.889175891876221,
+    "st_med_log_quoted": 10.630223274230957,
+    "st_med_absret10": 3.0150904655456543
+  },
+  {
+    "stock_id": 109,
+    "st_med_log_matched": 17.349071502685547,
+    "st_med_spread": 3.0707600116729736,
+    "st_med_log_quoted": 12.786808967590332,
+    "st_med_absret10": 1.0987555980682373
+  },
+  {
+    "stock_id": 110,
+    "st_med_log_matched": 17.946880340576172,
+    "st_med_spread": 1.56412935256958,
+    "st_med_log_quoted": 10.914896011352539,
+    "st_med_absret10": 1.5787773132324219
+  },
+  {
+    "stock_id": 111,
+    "st_med_log_matched": 14.44395637512207,
+    "st_med_spread": 5.022002696990967,
+    "st_med_log_quoted": 10.541468620300293,
+    "st_med_absret10": 2.024089813232422
+  },
+  {
+    "stock_id": 112,
+    "st_med_log_matched": 20.458393096923828,
+    "st_med_spread": 0.6804729104042053,
+    "st_med_log_quoted": 11.931480407714844,
+    "st_med_absret10": 1.8884656429290771
+  },
+  {
+    "stock_id": 113,
+    "st_med_log_matched": 16.756317138671875,
+    "st_med_spread": 4.386301517486572,
+    "st_med_log_quoted": 10.8395414352417,
+    "st_med_absret10": 2.1541342735290527
+  },
+  {
+    "stock_id": 114,
+    "st_med_log_matched": 15.373226165771484,
+    "st_med_spread": 5.836264610290527,
+    "st_med_log_quoted": 10.554630279541016,
+    "st_med_absret10": 2.122258186340332
+  },
+  {
+    "stock_id": 115,
+    "st_med_log_matched": 16.896272659301758,
+    "st_med_spread": 5.756913661956787,
+    "st_med_log_quoted": 10.664381980895996,
+    "st_med_absret10": 2.5234668254852295
+  },
+  {
+    "stock_id": 116,
+    "st_med_log_matched": 16.19414520263672,
+    "st_med_spread": 4.099401473999023,
+    "st_med_log_quoted": 10.462910652160645,
+    "st_med_absret10": 1.8433256149291992
+  },
+  {
+    "stock_id": 117,
+    "st_med_log_matched": 14.958569526672363,
+    "st_med_spread": 8.050881385803223,
+    "st_med_log_quoted": 13.013442993164062,
+    "st_med_absret10": 0.3802688717842102
+  },
+  {
+    "stock_id": 118,
+    "st_med_log_matched": 16.805377960205078,
+    "st_med_spread": 9.556780815124512,
+    "st_med_log_quoted": 11.367538452148438,
+    "st_med_absret10": 3.161163806915283
+  },
+  {
+    "stock_id": 119,
+    "st_med_log_matched": 15.648398399353027,
+    "st_med_spread": 7.461201190948486,
+    "st_med_log_quoted": 10.369147300720215,
+    "st_med_absret10": 2.4184703826904297
+  },
+  {
+    "stock_id": 120,
+    "st_med_log_matched": 15.766372680664062,
+    "st_med_spread": 2.8734381198883057,
+    "st_med_log_quoted": 11.237689018249512,
+    "st_med_absret10": 1.1877949237823486
+  },
+  {
+    "stock_id": 121,
+    "st_med_log_matched": 16.836894989013672,
+    "st_med_spread": 2.7383177280426025,
+    "st_med_log_quoted": 12.356694221496582,
+    "st_med_absret10": 0.7410794496536255
+  },
+  {
+    "stock_id": 122,
+    "st_med_log_matched": 16.044891357421875,
+    "st_med_spread": 6.051787853240967,
+    "st_med_log_quoted": 13.116471290588379,
+    "st_med_absret10": 0.8901985287666321
+  },
+  {
+    "stock_id": 123,
+    "st_med_log_matched": 17.674163818359375,
+    "st_med_spread": 1.5370335578918457,
+    "st_med_log_quoted": 11.668438911437988,
+    "st_med_absret10": 1.3892719745635986
+  },
+  {
+    "stock_id": 124,
+    "st_med_log_matched": 14.841301918029785,
+    "st_med_spread": 3.706073522567749,
+    "st_med_log_quoted": 10.217852592468262,
+    "st_med_absret10": 2.1935625076293945
+  },
+  {
+    "stock_id": 125,
+    "st_med_log_matched": 15.567707061767578,
+    "st_med_spread": 8.60107421875,
+    "st_med_log_quoted": 10.51259708404541,
+    "st_med_absret10": 2.148597240447998
+  },
+  {
+    "stock_id": 126,
+    "st_med_log_matched": 18.04962730407715,
+    "st_med_spread": 1.6131222248077393,
+    "st_med_log_quoted": 11.432839393615723,
+    "st_med_absret10": 2.157858371734619
+  },
+  {
+    "stock_id": 127,
+    "st_med_log_matched": 16.040239334106445,
+    "st_med_spread": 7.6789021492004395,
+    "st_med_log_quoted": 10.758678436279297,
+    "st_med_absret10": 3.2801380157470703
+  },
+  {
+    "stock_id": 128,
+    "st_med_log_matched": 16.149682998657227,
+    "st_med_spread": 2.399712085723877,
+    "st_med_log_quoted": 10.724383354187012,
+    "st_med_absret10": 1.954350471496582
+  },
+  {
+    "stock_id": 129,
+    "st_med_log_matched": 14.214360237121582,
+    "st_med_spread": 5.980154991149902,
+    "st_med_log_quoted": 10.140070915222168,
+    "st_med_absret10": 3.129365921020508
+  },
+  {
+    "stock_id": 130,
+    "st_med_log_matched": 17.742586135864258,
+    "st_med_spread": 1.1795623302459717,
+    "st_med_log_quoted": 11.192124366760254,
+    "st_med_absret10": 1.4812657833099365
+  },
+  {
+    "stock_id": 131,
+    "st_med_log_matched": 16.049240112304688,
+    "st_med_spread": 2.7035129070281982,
+    "st_med_log_quoted": 10.522926330566406,
+    "st_med_absret10": 1.5203626155853271
+  },
+  {
+    "stock_id": 132,
+    "st_med_log_matched": 16.34369659423828,
+    "st_med_spread": 3.655043840408325,
+    "st_med_log_quoted": 10.591960906982422,
+    "st_med_absret10": 1.861802339553833
+  },
+  {
+    "stock_id": 133,
+    "st_med_log_matched": 17.571918487548828,
+    "st_med_spread": 4.1161723136901855,
+    "st_med_log_quoted": 10.574027061462402,
+    "st_med_absret10": 2.2846336364746094
+  },
+  {
+    "stock_id": 134,
+    "st_med_log_matched": 15.777811050415039,
+    "st_med_spread": 8.873429298400879,
+    "st_med_log_quoted": 12.55574893951416,
+    "st_med_absret10": 0.4898836612701416
+  },
+  {
+    "stock_id": 135,
+    "st_med_log_matched": 14.962010383605957,
+    "st_med_spread": 7.089613914489746,
+    "st_med_log_quoted": 11.963296890258789,
+    "st_med_absret10": 1.6932239532470703
+  },
+  {
+    "stock_id": 136,
+    "st_med_log_matched": 14.753697395324707,
+    "st_med_spread": 4.778555870056152,
+    "st_med_log_quoted": 10.256796836853027,
+    "st_med_absret10": 1.8524971008300781
+  },
+  {
+    "stock_id": 137,
+    "st_med_log_matched": 16.22252082824707,
+    "st_med_spread": 2.9449210166931152,
+    "st_med_log_quoted": 10.608399391174316,
+    "st_med_absret10": 1.8203649520874023
+  },
+  {
+    "stock_id": 138,
+    "st_med_log_matched": 13.771809577941895,
+    "st_med_spread": 10.520842552185059,
+    "st_med_log_quoted": 9.796233177185059,
+    "st_med_absret10": 1.8898043632507324
+  },
+  {
+    "stock_id": 139,
+    "st_med_log_matched": 16.382482528686523,
+    "st_med_spread": 2.8145370483398438,
+    "st_med_log_quoted": 10.525120735168457,
+    "st_med_absret10": 2.1934590339660645
+  },
+  {
+    "stock_id": 140,
+    "st_med_log_matched": 18.464895248413086,
+    "st_med_spread": 1.5780905485153198,
+    "st_med_log_quoted": 10.736856460571289,
+    "st_med_absret10": 1.8561298847198486
+  },
+  {
+    "stock_id": 141,
+    "st_med_log_matched": 18.089908599853516,
+    "st_med_spread": 1.843646764755249,
+    "st_med_log_quoted": 10.540560722351074,
+    "st_med_absret10": 2.3825862407684326
+  },
+  {
+    "stock_id": 142,
+    "st_med_log_matched": 18.696441650390625,
+    "st_med_spread": 3.4115564823150635,
+    "st_med_log_quoted": 11.055973052978516,
+    "st_med_absret10": 2.14479923248291
+  },
+  {
+    "stock_id": 143,
+    "st_med_log_matched": 13.085437774658203,
+    "st_med_spread": 20.061771392822266,
+    "st_med_log_quoted": 12.424365043640137,
+    "st_med_absret10": 0.8638159036636353
+  },
+  {
+    "stock_id": 144,
+    "st_med_log_matched": 16.600004196166992,
+    "st_med_spread": 2.3454601764678955,
+    "st_med_log_quoted": 10.737249374389648,
+    "st_med_absret10": 1.4490327835083008
+  },
+  {
+    "stock_id": 145,
+    "st_med_log_matched": 15.598775863647461,
+    "st_med_spread": 3.3452906608581543,
+    "st_med_log_quoted": 10.695295333862305,
+    "st_med_absret10": 1.6793532371520996
+  },
+  {
+    "stock_id": 146,
+    "st_med_log_matched": 15.458647727966309,
+    "st_med_spread": 6.834651470184326,
+    "st_med_log_quoted": 10.484210968017578,
+    "st_med_absret10": 2.0548999309539795
+  },
+  {
+    "stock_id": 147,
+    "st_med_log_matched": 16.172372817993164,
+    "st_med_spread": 2.8803975582122803,
+    "st_med_log_quoted": 11.342610359191895,
+    "st_med_absret10": 2.3743884563446045
+  },
+  {
+    "stock_id": 148,
+    "st_med_log_matched": 16.82093620300293,
+    "st_med_spread": 1.4700742959976196,
+    "st_med_log_quoted": 11.082990646362305,
+    "st_med_absret10": 1.477791428565979
+  },
+  {
+    "stock_id": 149,
+    "st_med_log_matched": 16.562070846557617,
+    "st_med_spread": 3.641547679901123,
+    "st_med_log_quoted": 10.612597465515137,
+    "st_med_absret10": 1.5902631282806396
+  },
+  {
+    "stock_id": 150,
+    "st_med_log_matched": 17.076738357543945,
+    "st_med_spread": 4.79990816116333,
+    "st_med_log_quoted": 11.138581275939941,
+    "st_med_absret10": 2.4811758995056152
+  },
+  {
+    "stock_id": 151,
+    "st_med_log_matched": 18.488649368286133,
+    "st_med_spread": 2.0203170776367188,
+    "st_med_log_quoted": 12.705358505249023,
+    "st_med_absret10": 1.667626976966858
+  },
+  {
+    "stock_id": 152,
+    "st_med_log_matched": 16.59178924560547,
+    "st_med_spread": 5.1778669357299805,
+    "st_med_log_quoted": 10.629944801330566,
+    "st_med_absret10": 2.13459849357605
+  },
+  {
+    "stock_id": 153,
+    "st_med_log_matched": 14.116382598876953,
+    "st_med_spread": 5.630864143371582,
+    "st_med_log_quoted": 10.743898391723633,
+    "st_med_absret10": 1.2344467639923096
+  },
+  {
+    "stock_id": 154,
+    "st_med_log_matched": 15.278095245361328,
+    "st_med_spread": 4.357810974121094,
+    "st_med_log_quoted": 11.490921020507812,
+    "st_med_absret10": 0.6890164613723755
+  },
+  {
+    "stock_id": 155,
+    "st_med_log_matched": 15.123785972595215,
+    "st_med_spread": 4.570623874664307,
+    "st_med_log_quoted": 10.463445663452148,
+    "st_med_absret10": 1.9780428409576416
+  },
+  {
+    "stock_id": 156,
+    "st_med_log_matched": 15.756370544433594,
+    "st_med_spread": 5.504929542541504,
+    "st_med_log_quoted": 11.771045684814453,
+    "st_med_absret10": 2.1882448196411133
+  },
+  {
+    "stock_id": 157,
+    "st_med_log_matched": 17.033668518066406,
+    "st_med_spread": 4.083434104919434,
+    "st_med_log_quoted": 10.505221366882324,
+    "st_med_absret10": 2.309586524963379
+  },
+  {
+    "stock_id": 158,
+    "st_med_log_matched": 15.150175094604492,
+    "st_med_spread": 9.0,
+    "st_med_log_quoted": 10.043109893798828,
+    "st_med_absret10": 3.104066848754883
+  },
+  {
+    "stock_id": 159,
+    "st_med_log_matched": 15.94677448272705,
+    "st_med_spread": 3.049614191055298,
+    "st_med_log_quoted": 10.35460376739502,
+    "st_med_absret10": 2.1160476207733154
+  },
+  {
+    "stock_id": 160,
+    "st_med_log_matched": 18.453935623168945,
+    "st_med_spread": 1.1818236112594604,
+    "st_med_log_quoted": 10.964340209960938,
+    "st_med_absret10": 1.3201241493225098
+  },
+  {
+    "stock_id": 161,
+    "st_med_log_matched": 15.320265769958496,
+    "st_med_spread": 6.8869242668151855,
+    "st_med_log_quoted": 11.145506858825684,
+    "st_med_absret10": 2.076256513595581
+  },
+  {
+    "stock_id": 162,
+    "st_med_log_matched": 16.645700454711914,
+    "st_med_spread": 4.806382656097412,
+    "st_med_log_quoted": 10.453697204589844,
+    "st_med_absret10": 2.8291220664978027
+  },
+  {
+    "stock_id": 163,
+    "st_med_log_matched": 18.381893157958984,
+    "st_med_spread": 2.727741241455078,
+    "st_med_log_quoted": 10.976384162902832,
+    "st_med_absret10": 1.7786872386932373
+  },
+  {
+    "stock_id": 164,
+    "st_med_log_matched": 16.381103515625,
+    "st_med_spread": 3.076887607574463,
+    "st_med_log_quoted": 10.38568115234375,
+    "st_med_absret10": 1.72031569480896
+  },
+  {
+    "stock_id": 165,
+    "st_med_log_matched": 16.014331817626953,
+    "st_med_spread": 5.740387439727783,
+    "st_med_log_quoted": 12.43898868560791,
+    "st_med_absret10": 0.7405213117599487
+  },
+  {
+    "stock_id": 166,
+    "st_med_log_matched": 16.85602569580078,
+    "st_med_spread": 2.6701135635375977,
+    "st_med_log_quoted": 12.220542907714844,
+    "st_med_absret10": 0.8996567726135254
+  },
+  {
+    "stock_id": 167,
+    "st_med_log_matched": 15.951323509216309,
+    "st_med_spread": 3.0271499156951904,
+    "st_med_log_quoted": 10.657289505004883,
+    "st_med_absret10": 1.4804723262786865
+  },
+  {
+    "stock_id": 168,
+    "st_med_log_matched": 19.862667083740234,
+    "st_med_spread": 1.815350890159607,
+    "st_med_log_quoted": 11.619064331054688,
+    "st_med_absret10": 2.1140565872192383
+  },
+  {
+    "stock_id": 169,
+    "st_med_log_matched": 16.284852981567383,
+    "st_med_spread": 5.764348030090332,
+    "st_med_log_quoted": 10.349010467529297,
+    "st_med_absret10": 2.2483396530151367
+  },
+  {
+    "stock_id": 170,
+    "st_med_log_matched": 16.07598876953125,
+    "st_med_spread": 2.626387357711792,
+    "st_med_log_quoted": 10.66712474822998,
+    "st_med_absret10": 1.3803126811981201
+  },
+  {
+    "stock_id": 171,
+    "st_med_log_matched": 16.543052673339844,
+    "st_med_spread": 3.5274901390075684,
+    "st_med_log_quoted": 10.524176597595215,
+    "st_med_absret10": 1.945660948753357
+  },
+  {
+    "stock_id": 172,
+    "st_med_log_matched": 14.287771224975586,
+    "st_med_spread": 6.962459087371826,
+    "st_med_log_quoted": 10.374334335327148,
+    "st_med_absret10": 2.2436394691467285
+  },
+  {
+    "stock_id": 173,
+    "st_med_log_matched": 15.184447288513184,
+    "st_med_spread": 6.200061798095703,
+    "st_med_log_quoted": 10.551020622253418,
+    "st_med_absret10": 2.3861308097839355
+  },
+  {
+    "stock_id": 174,
+    "st_med_log_matched": 15.307092666625977,
+    "st_med_spread": 5.29000186920166,
+    "st_med_log_quoted": 10.643664360046387,
+    "st_med_absret10": 3.612332820892334
+  },
+  {
+    "stock_id": 175,
+    "st_med_log_matched": 19.38962173461914,
+    "st_med_spread": 2.375324249267578,
+    "st_med_log_quoted": 11.488537788391113,
+    "st_med_absret10": 2.1003379821777344
+  },
+  {
+    "stock_id": 176,
+    "st_med_log_matched": 16.917957305908203,
+    "st_med_spread": 3.992873191833496,
+    "st_med_log_quoted": 10.615843772888184,
+    "st_med_absret10": 2.439971923828125
+  },
+  {
+    "stock_id": 177,
+    "st_med_log_matched": 14.97438907623291,
+    "st_med_spread": 13.245046615600586,
+    "st_med_log_quoted": 10.311063766479492,
+    "st_med_absret10": 3.306273937225342
+  },
+  {
+    "stock_id": 178,
+    "st_med_log_matched": 16.739015579223633,
+    "st_med_spread": 2.9631261825561523,
+    "st_med_log_quoted": 10.369847297668457,
+    "st_med_absret10": 2.40696382522583
+  },
+  {
+    "stock_id": 179,
+    "st_med_log_matched": 19.192758560180664,
+    "st_med_spread": 1.2778315544128418,
+    "st_med_log_quoted": 11.061899185180664,
+    "st_med_absret10": 2.0353775024414062
+  },
+  {
+    "stock_id": 180,
+    "st_med_log_matched": 14.6714506149292,
+    "st_med_spread": 7.709148406982422,
+    "st_med_log_quoted": 9.99971866607666,
+    "st_med_absret10": 2.9659664630889893
+  },
+  {
+    "stock_id": 181,
+    "st_med_log_matched": 15.803406715393066,
+    "st_med_spread": 4.489858627319336,
+    "st_med_log_quoted": 10.480484008789062,
+    "st_med_absret10": 1.8590927124023438
+  },
+  {
+    "stock_id": 182,
+    "st_med_log_matched": 16.086694717407227,
+    "st_med_spread": 2.3061776161193848,
+    "st_med_log_quoted": 11.437047004699707,
+    "st_med_absret10": 1.9403648376464844
+  },
+  {
+    "stock_id": 183,
+    "st_med_log_matched": 17.429916381835938,
+    "st_med_spread": 1.6527360677719116,
+    "st_med_log_quoted": 10.521793365478516,
+    "st_med_absret10": 2.2744827270507812
+  },
+  {
+    "stock_id": 184,
+    "st_med_log_matched": 16.580516815185547,
+    "st_med_spread": 3.690751075744629,
+    "st_med_log_quoted": 10.417258262634277,
+    "st_med_absret10": 2.7580859661102295
+  },
+  {
+    "stock_id": 185,
+    "st_med_log_matched": 16.608917236328125,
+    "st_med_spread": 4.973842144012451,
+    "st_med_log_quoted": 10.649554252624512,
+    "st_med_absret10": 2.0950186252593994
+  },
+  {
+    "stock_id": 186,
+    "st_med_log_matched": 16.926050186157227,
+    "st_med_spread": 1.6115527153015137,
+    "st_med_log_quoted": 10.903037071228027,
+    "st_med_absret10": 1.5443155765533447
+  },
+  {
+    "stock_id": 187,
+    "st_med_log_matched": 16.939504623413086,
+    "st_med_spread": 2.310638904571533,
+    "st_med_log_quoted": 10.797886848449707,
+    "st_med_absret10": 1.4262176752090454
+  },
+  {
+    "stock_id": 188,
+    "st_med_log_matched": 15.354175567626953,
+    "st_med_spread": 3.9027905464172363,
+    "st_med_log_quoted": 10.61385440826416,
+    "st_med_absret10": 2.859733819961548
+  },
+  {
+    "stock_id": 189,
+    "st_med_log_matched": 15.983760833740234,
+    "st_med_spread": 2.608454942703247,
+    "st_med_log_quoted": 10.493693351745605,
+    "st_med_absret10": 1.5955531597137451
+  },
+  {
+    "stock_id": 190,
+    "st_med_log_matched": 16.94672966003418,
+    "st_med_spread": 5.347059726715088,
+    "st_med_log_quoted": 10.692411422729492,
+    "st_med_absret10": 2.4478979110717773
+  },
+  {
+    "stock_id": 191,
+    "st_med_log_matched": 19.50326156616211,
+    "st_med_spread": 2.0027759075164795,
+    "st_med_log_quoted": 11.369641304016113,
+    "st_med_absret10": 2.543064832687378
+  },
+  {
+    "stock_id": 192,
+    "st_med_log_matched": 15.567096710205078,
+    "st_med_spread": 4.435746669769287,
+    "st_med_log_quoted": 10.387774467468262,
+    "st_med_absret10": 1.8087384700775146
+  },
+  {
+    "stock_id": 193,
+    "st_med_log_matched": 18.20188331604004,
+    "st_med_spread": 1.3597837686538696,
+    "st_med_log_quoted": 10.899055480957031,
+    "st_med_absret10": 2.0955121517181396
+  },
+  {
+    "stock_id": 194,
+    "st_med_log_matched": 15.297964096069336,
+    "st_med_spread": 3.1895358562469482,
+    "st_med_log_quoted": 10.324128150939941,
+    "st_med_absret10": 2.441866397857666
+  },
+  {
+    "stock_id": 195,
+    "st_med_log_matched": 16.99418067932129,
+    "st_med_spread": 1.1704875230789185,
+    "st_med_log_quoted": 10.947073936462402,
+    "st_med_absret10": 1.4114785194396973
+  },
+  {
+    "stock_id": 196,
+    "st_med_log_matched": 15.46747875213623,
+    "st_med_spread": 3.00303316116333,
+    "st_med_log_quoted": 10.696788787841797,
+    "st_med_absret10": 1.3092517852783203
+  },
+  {
+    "stock_id": 197,
+    "st_med_log_matched": 16.164941787719727,
+    "st_med_spread": 3.2082033157348633,
+    "st_med_log_quoted": 10.485325813293457,
+    "st_med_absret10": 2.1891398429870605
+  },
+  {
+    "stock_id": 198,
+    "st_med_log_matched": 18.290109634399414,
+    "st_med_spread": 2.329479455947876,
+    "st_med_log_quoted": 12.690622329711914,
+    "st_med_absret10": 1.51951003074646
+  },
+  {
+    "stock_id": 199,
+    "st_med_log_matched": 16.59027862548828,
+    "st_med_spread": 3.5142574310302734,
+    "st_med_log_quoted": 11.725860595703125,
+    "st_med_absret10": 2.0129425525665283
+  }
+]

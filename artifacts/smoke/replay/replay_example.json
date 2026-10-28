@@ -1,0 +1,12 @@
+{
+  "label": "OFFLINE MOCK REPLAY (not the official Kaggle API)",
+  "source": "example",
+  "batches": 165,
+  "rows": 33000,
+  "seconds": 5.12,
+  "submission_rows": 33000,
+  "submission_schema_matches_sample": true,
+  "row_ids_match_sample_order": true,
+  "all_finite": true,
+  "max_abs_diff_vs_batch_features": 3.552713678800501e-15
+}
